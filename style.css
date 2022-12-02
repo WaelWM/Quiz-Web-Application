@@ -1,0 +1,83 @@
+body {
+    font-family:Open 'Times New Roman', Times, serif;
+    
+}
+
+h1 {
+    text-align: center;
+}
+
+#title {
+    text-decoration: underline;
+}
+
+#quiz {
+    font-size: 20px;
+    text-indent: 10px;
+    display:none;
+    color: black;
+}
+
+.button {
+    text-align: center;
+    border:3px solid;
+    border-radius:5px;
+    width: 80px;
+    padding-left:5px;
+    padding-right: 5px;
+    margin-top: 3.5rem;
+    margin-left: 43rem;     
+    background-color: #DCDCDC;
+    color: black;
+}
+
+.button.active {
+    background-color: #F8F8FF;
+    color: #525252;
+}
+
+button {
+    position: relative;
+    float:right;
+}
+
+.button a {
+    text-decoration: none;
+    color: black;
+}
+
+#container {
+    width:50%;
+    height: 25rem;
+    margin:auto;
+    margin-top: 10rem;
+    padding: 0 35px 60px 15px;
+    background-color: lightgray;
+    border:2px solid #000707;
+    border-radius:10px;
+    font-weight: bold;
+    filter: drop-shadow(2px 4px 8px #2f016e);
+    
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-size: 25px;
+}
+
+#prev {
+    display:none;
+    width: 80px;
+    border-radius:5px;
+    margin-top: -24.5px;
+    margin-left: 36rem;     
+    color: black;
+}
+
+#start {
+    display:none;
+    width: 150px;
+    margin: 8rem 5rem 5rem 20rem ;
+}
